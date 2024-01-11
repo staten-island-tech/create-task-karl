@@ -1,6 +1,6 @@
 const URL = `https://random-word.ryanrk.com/api/en/word/random`;
 
-async function getData(URL) {
+/* async function getData(URL) {
     try {
         const response = await fetch(URL);
         if (response.status !== 200) {
@@ -13,7 +13,77 @@ async function getData(URL) {
         console.log("something broke", error);
     }
     }
-    getData(URL);
+    getData(URL); */
+
+    const arr = [
+        {
+           word: "apple",
+        },
+        {
+           word: "banana",
+        },
+        {
+           word: "purple",
+        },
+        {
+           word: "origami",
+        },
+        {
+           word: "evaporometer",
+        },
+        {
+           word: "maimed",
+        },
+        {
+           word: "imponent",
+        },
+        {
+           word: "wakiki",
+        },
+        {
+           word: "irksome",
+        },
+        {
+           word: "stamba",
+        },
+        {
+           word: "chantress",
+        },
+        {
+           pword: "Phebe",
+        },
+        {
+           word: "sweetland",
+        },
+        {
+           word: "impurify",
+        },
+        {
+           word: "internship",
+        },
+        {
+           word: "platypus",
+        },
+        {
+           word: "kinetosis",
+        },
+        {
+           word: "autophosphorylation",
+        },
+
+    ]
+
+    const find = arr[(Math.floor(Math.random() * arr.length))];
+
+    function randomWord() {
+        
+    }
+    
+    for (i= 0; i < ; i++)
+
+    randomWord();
+
+
 
     //function for user input to unscramble word
 
