@@ -1,4 +1,4 @@
-const URL = `https://random-word.ryanrk.com/api/en/word/random`;
+/* const URL = `https://random-word.ryanrk.com/api/en/word/random`; */
 
 /* async function getData(URL) {
     try {
@@ -74,12 +74,14 @@ const URL = `https://random-word.ryanrk.com/api/en/word/random`;
     ]
 
     const find = arr[(Math.floor(Math.random() * arr.length))];
+   /*     console.log(find); */
 
     function randomWord() {
-        
+        const scramble = find.((a, b) => 0.5 - math.random());
+        for (i= arr.length - 1; i >0 ; i++) {
+         console.log(scramble(a,b));
+        }
     }
-    
-    for (i= 0; i < ; i++)
 
     randomWord();
 
