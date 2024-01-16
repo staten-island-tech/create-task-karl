@@ -77,14 +77,25 @@
    /*     console.log(find); */
 
     function randomWord() {
-        const scramble = find.((a, b) => 0.5 - math.random());
+      const find = arr[(Math.floor(Math.random() * arr.length))];
+      console.log(find);
+      console.log(find.split(''));
+/*         const scramble = find.split((a, b) => 0.5 - math.random());
         for (i= arr.length - 1; i >0 ; i++) {
-         console.log(scramble(a,b));
+         let a = 
+         let b = 
+         console.log(scramble(a,b)); */
         }
-    }
-
     randomWord();
 
+    document.querySelector("#word-form").addEventListener("submit", function () {
+        if ( //user input = unscrambled array
+         1
+        );
+        else (
+         0
+        );
+        });
 
 
     //function for user input to unscramble word
@@ -95,4 +106,4 @@
 
     //algorithm to see if letters match in strings
 
-    //array to store used words, prevent reuse
+    //try again button, new word button
