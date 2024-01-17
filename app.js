@@ -84,18 +84,21 @@
         for (i= arr.length - 1; i >0 ; i++) {
          let a = 
          let b = 
+
          console.log(scramble(a,b)); */
         }
     randomWord();
 
-    document.querySelector("#word-form").addEventListener("submit", function () {
-        if ( //user input = unscrambled array
-         1
-        );
-        else (
-         0
-        );
-        });
+    function compare() {
+      document.querySelector("#word-form").addEventListener("submit", function () {
+         if ( //user input = find.result
+          1
+         );
+         else (
+          0
+         );
+         });
+    }
 
 
     //function for user input to unscramble word
