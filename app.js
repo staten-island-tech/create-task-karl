@@ -82,23 +82,39 @@
       console.log(find.split(''));
 /*         const scramble = find.split((a, b) => 0.5 - math.random());
         for (i= arr.length - 1; i >0 ; i++) {
-         let a = 
-         let b = 
-
+         let a = [0]
+         let b = scramble b
+      
          console.log(scramble(a,b)); */
+         document.querySelector("#words").insertAdjacentHTML(randomWord());
         }
     randomWord();
 
     function compare() {
       document.querySelector("#word-form").addEventListener("submit", function () {
          if ( //user input = find.result
-          1
+
+          `<div>
+          <dialog class = "diabox">
+           <h3>${ "variable or smth for whether same or not" }</h3>
+          <dialog>
+          </div>`
          );
          else (
-          0
+          //display the not same variable
+          
          );
          });
     }
+
+    function something {
+      //add 1 for each win, or just jump to reset
+      document.querySelector("diabox").innerHTML;
+
+      for()
+    }
+
+    
 
 
     //function for user input to unscramble word
