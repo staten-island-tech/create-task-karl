@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="words"></div>
-    <form action="submit">
-        <input type="text" value ='answer' id="word-form">
-        <input type="button" value="submit">
-    </form>
+    <form id="submitForm">
+        <label for="userResponse">Type Your Answer: </label>
+        <input type="text" id="userResponse" required>
+        <button type="submit">Submit</button>
+      </form>
     <script src="app.js"></script>
 </body>
 </html>
