@@ -81,8 +81,8 @@ async function getData(URL) {
     function startGame() {
       const randomWord = arr[Math.floor(Math.random() * arr.length)];
       originalWord = randomWord.word;
-      const scrambledWord = scrambleWord(originalWord);
-      displayWords.textContent = `Unscramble the word: ${scrambledWord}`;
+      const display = scrambleWord(originalWord);
+      displayWords.textContent = `Unscramble the word: ${display}`;
   }
     
     let originalWord = "";
