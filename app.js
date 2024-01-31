@@ -92,6 +92,7 @@ async function getData(URL) {
     
         if (userGuess === originalWord.toLowerCase()) {
             alert("Correct! You unscrambled the word! Click to refresh!");
+            
             startGame();
             win++;
         } else {
