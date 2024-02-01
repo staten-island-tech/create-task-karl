@@ -10,6 +10,10 @@ html,
     color: white;
 }
 
+:root {
+    --blue: rgb(54, 48, 48);
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -27,6 +31,22 @@ h2 {
     padding: 2vh;
 }
 
+#submitForm {
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 90vw;
+}
+
+.userResponse {
+    border: 2px solid silver;
+}
+
 .button {
     border: 2px solid red;
+    flex-basis: 20vw;
+    box-shadow: 5px 5px 5px gray;
 }
+
+.button:hover {
+    background-color: var(--blue);
+  }
