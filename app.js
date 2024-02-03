@@ -28,7 +28,7 @@ async function getData(URL) {
          word: "origami",
       },
       {
-         word: "evaporometer",
+         word: "evaporimeter",
       },
       {
          word: "maimed",
@@ -37,7 +37,7 @@ async function getData(URL) {
          word: "imponent",
       },
       {
-         word: "wakiki",
+         word: "waikiki",
       },
       {
          word: "irksome",
